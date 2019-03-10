@@ -1,0 +1,838 @@
+@font-face {
+    font-family: "substitution";
+    src: url("../font/TypeWritersSubstitute-Black.ttf");
+}
+
+body {
+    background: #fff;
+}
+
+.hide {
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+nav {
+    background: #fff;
+    height: 55px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo {
+    width: 81px;
+    height: 44px;
+    margin: 5px auto;
+}
+
+#navbarResponsive a {
+    color: #333;
+}
+
+#navbarResponsive ul li {
+    float: left;
+}
+
+#navbarResponsive ul li span svg {
+    width: 10px;
+}
+
+#top-nav {
+    margin-left: 65px;
+}
+
+.count ul {
+    padding: 0;
+    margin: 0;
+}
+
+.male-hashtag ul li {
+    border-left: 3px solid #001d3a;
+    overflow: hidden;
+}
+
+#male-tweet p {
+    padding: 0;
+    margin: 0;
+}
+
+#female-tweet p {
+    padding: 0;
+    margin: 0;
+}
+
+#male-tweet .tweets-content {
+    -ms-transform: rotate(-1.5deg);
+    -webkit-transform: rotate(-1.5deg);
+    transform: rotate(-0.5deg);
+    font-family: 'substitution';
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+#female-tweet .tweets-content {
+    -ms-transform: rotate(0.5deg);
+    -webkit-transform: rotate(0.5deg);
+    transform: rotate(0.5deg);
+    font-family: 'substitution';
+}
+
+#gallon {
+    margin: 80px auto;
+    width: 100%;
+    z-index: 0;
+}
+
+#campaign-content {
+    margin: 30px auto;
+    font-family: 'substitution';
+}
+
+footer {
+    height: 170px;
+    color: #6d6e71;
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+}
+
+.copyright div div {
+    display: inline-block;
+    height: 20px;
+    line-height: 15px;
+}
+
+footer #copy-links {
+    color: #0f0;
+    border-right: 1px solid #6d6e71;
+    padding-right: 5px;
+    margin-right: 20px;
+}
+
+footer .social-links {
+    margin: 40px auto;
+}
+
+footer .social-links ul li a {
+    text-decoration: none;
+}
+
+footer .social-links ul li i {
+    display: block;
+    font-size: 25px;
+    color: #333;
+}
+
+.gallon {
+    position: relative;
+}
+
+.gallon .col-md-12 {
+    padding: 0;
+    position: relative;
+}
+
+.gallon .col-md-12 .box1,
+.box2 {
+    position: absolute;
+    top: 23.1%;
+    width: 24%;
+    height: 39%;
+}
+
+.box1 {
+    left: 5.3%;
+}
+
+.box2 {
+    right: 3.3%;
+}
+
+.box1 img,
+.box2 img {
+    width: 100%;
+}
+
+.dropwater-wrap {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box-img {
+    z-index: 3;
+    position: absolute;
+}
+
+.drop-anim {
+    animation: drop 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s infinite;
+}
+
+.box1 .gallonshadow {
+    top: 28%;
+    left: 2%;
+    width: 94%!important;
+    z-index: 1;
+    position: absolute;
+}
+.box2 .gallonshadow {
+    top: 27%;
+    right: 1.2%;
+    width: 94%!important;
+    z-index: 1;
+    position: absolute;
+}
+
+.glow1 {
+    height: 0%;
+    width: 98%;
+    position: absolute;
+    top: 15%;
+    border-radius: 50%;
+    z-index: 0;
+    background-color: transparent;
+    display: inline-block;
+    -webkit-animation: glow1 1s ease-in-out infinite alternate;
+    -moz-animation: glow1 1s ease-in-out infinite alternate;
+    animation: glow1 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow1 {
+    from {
+        box-shadow: 0 0 10px #6575b8, 0 0 130px #6877ba, 0 0 250px #5b6fb5, 0 0 370px #4f67b0, 0 0 490px #4b65af, 0 0 610px #3f5eab, 0 0 730px #2853a4;
+    }
+    to {
+        box-shadow: 0 0 110px #6575b8, 0 0 230px #6877ba, 0 0 350px #5b6fb5, 0 0 470px #4f67b0, 0 0 590px #4b65af, 0 0 710px #3f5eab, 0 0 830px #2853a4;
+    }
+}
+
+.glow2 {
+    height: 6%;
+    width: 98%;
+    right: 0;
+    position: absolute;
+    top: 58%;
+    z-index: 0;
+    /* left: 50%; */
+    background-color: transparent;
+    /* border-radius: 50%; */
+    display: inline-block;
+    -webkit-animation: glow2 1s ease-in-out infinite alternate;
+    -moz-animation: glow2 1s ease-in-out infinite alternate;
+    animation: glow2 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow2 {
+    from {
+        box-shadow: 0 0 10px #6575b8, 0 0 130px #6877ba, 0 0 250px #5b6fb5, 0 0 370px #4f67b0, 0 0 490px #4b65af, 0 0 610px #3f5eab, 0 0 730px #2853a4;
+    }
+    to {
+        box-shadow: 0 0 110px #41b8cd, 0 0 230px #3fb5cc, 0 0 350px #3badc9, 0 0 470px #38a6c6, 0 0 590px #2c8dbb, 0 0 710px #2a84b8, 0 0 830px #1d64aa;
+    }
+}
+
+@keyframes drop {
+    0% {
+        transform: scale3d(0.01, 0.01, 0.01);
+        top: 38%;
+    }
+    10% {
+        transform: scale3d(1, 1, 1)
+    }
+    44% {
+        transform: scale3d(1, 1, 1)
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+        top: 85%;
+    }
+}
+
+
+
+@media (min-width: 320px) {
+    
+    .container {
+        width: 100%;
+        overflow: hidden;
+    }
+    #gallon {
+        display: none;
+    }
+    #mobile_gallon {
+        display: inline-block;
+        margin: 34% auto;
+        width: 100%;
+        z-index: 0;
+    }
+    .gallon .col-md-12 .box1,
+    .box2 {
+        position: absolute;
+        top: 31.6%;
+        width: 34%;
+        height: 35%;
+    }
+    .box1 {
+        left: 5.1%;
+    }
+    .box2 {
+        right: 5.3%;
+    }
+    .male-hashtag h1 {
+        font-weight: bold;
+        font-family: 'substitution';
+        font-size: 1.5rem;
+    }
+    .female-hashtag h1 {
+        font-weight: bold;
+        font-family: 'substitution';
+        font-size: 1.5rem;
+    }
+    .count ul li {
+        list-style-type: none;
+        width: 18px;
+        height: 25px;
+        float: left;
+        text-align: center;
+        line-height: 30px;
+        font-size: 1rem;
+        background: #052542 no-repeat;
+        margin: 0 1px;
+        font-weight: bold;
+    }
+    .campaign-content .col-md-6 {
+        margin-top: 0;
+    }
+    .count {
+        margin: 10px auto;
+    }
+    .male-hashtag {
+        position: absolute;
+        top: 6.6%;
+        left: 3%;
+        color: #fff;
+    }
+    .female-hashtag {
+        position: absolute;
+        top: 6.6%;
+        right: 3%;
+        color: #fff;
+    }
+    .female-hashtag ul li {
+        border-right: 2px solid #001d3a;
+        overflow: hidden;
+    }
+    .main {
+        background: url(../images/background.jpg) no-repeat top center;
+        background-size: cover;
+        height: 650px;
+        margin-top: 0;
+    }
+    #male-tweet {
+        top: 70%;
+        left: 10px;
+        background: #fff;
+        -ms-transform: rotate(-7deg);
+        -webkit-transform: rotate(-7deg);
+        transform: rotate(-7deg) skew(-7deg);
+        border-left: 3px solid #bebec2;
+    }
+    #female-tweet {
+        top: 70%;
+        right: 10px;
+        background: #fff;
+        -ms-transform: rotate(7deg);
+        -webkit-transform: rotate(7deg);
+        transform: rotate(7deg) skew(7deg);
+        border-right: 3px solid #bebec2;
+    }
+    .lastest-tweet {
+        position: absolute;
+        width: 45%;
+        min-height: 160px;
+        border-radius: 5px;
+        padding: 10px;
+        direction: rtl;
+        text-align: right;
+        font-size: .6rem;
+    }
+    #male-tweet .drop {
+        width: 15px;
+        height: 15px;
+        float: right;
+        background: url(../images/male_tweet_drop.png) no-repeat;
+        background-size: contain;
+        margin-top: 4px;
+        margin-left: 3px;
+    }
+    #female-tweet .drop {
+        width: 15px;
+        height: 15px;
+        float: right;
+        background: url(../images/male_tweet_drop.png) no-repeat;
+        background-size: contain;
+        margin-top: 4px;
+        margin-left: 3px;
+    }
+    .box1 .dropwater {
+        z-index: 1;
+        width: 20px;
+        height: 20px;
+        right: 10%;
+        top: 41%;
+        position: absolute;
+    }
+    .box2 .dropwater {
+        z-index: 1;
+        width: 20px;
+        height: 20px;
+        left: 12%;
+        top: 41%;
+        position: absolute;
+    }
+    #male-tweet .tweet-user {
+        width: 100%;
+        height: 30px;
+        -ms-transform: rotate(0.5deg);
+        -webkit-transform: rotate(0.5deg);
+        transform: rotate(0.5deg);
+    }
+    #female-tweet .tweet-user {
+        width: 100%;
+        height: 30px;
+        -ms-transform: rotate(0.5deg);
+        -webkit-transform: rotate(0.5deg);
+        transform: rotate(0.5deg);
+    }
+    .user-info {
+        width: auto;
+        height: 20px;
+        float: right;
+        direction: ltr;
+        font-family: 'substitution';
+    }
+    .user-info span {
+        padding: 0;
+        margin: 0;
+        line-height: 10px;
+        display: block;
+    }
+    .tweet-email {
+        color: #6d6e71;
+        font-size: 10px;
+    }
+    .user-info .user-name:before {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background: url(../images/male_tweet_check.png) no-repeat;
+        background-size: contain;
+    }
+    .tweets-content:after {
+        content: "";
+        background: url(../images/male_tweet_dolar.png) no-repeat;
+        background-size: cover;
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+    }
+    .campaign-content {
+        height: 200px;
+        margin-top: 0;
+    }
+    #campaign-content .ul {
+        margin: 20px auto;
+        width: 270px;
+        padding-left: 0;
+    }
+    #campaign-content .ul .li {
+        font-size: 28px;
+        color: #6d6e71;
+        font-size: 1.3rem;
+    }
+    footer .social-links ul {
+        padding: 0;
+        width: 285px;
+        margin: 0 auto;
+    }
+    footer .social-links ul li {
+        list-style-type: none;
+        float: left;
+        margin: 0 7px;
+    }
+    #campaign-content h5 {
+        font-size: 30px;
+        color: #443165;
+        font-family: 'substitution';
+    }
+    .col-0 {
+        display: none;
+    }
+    .box1 .dropwater-wrap svg.whole-water {
+        z-index: 2;
+        width: 92%;
+        position: absolute;
+        bottom: 0%;
+        right: 6.5%;
+        transform: skewY(-6deg);
+        border-radius: 0 0 8px 15px;
+        height: 10%;
+    }
+    .box2 .dropwater-wrap svg.whole-water {
+        z-index: 2;
+        width: 91%;
+        position: absolute;
+        bottom: 0%;
+        left: 8.4%;
+        transform: skewY(6deg);
+        border-radius: 0 0 15px 8px;
+        height: 10%;
+    }
+    .campaign-content .col-md-6, .col-12 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 340px) {
+    .main {
+        height: 690px;
+    }
+}
+
+@media (min-width: 360px) {
+    .main {
+        height: 700px;
+    }
+}
+
+@media (min-width: 400px) {
+    .main {
+        height: 720px;
+    }
+    .male-hashtag h1 {
+        font-weight: bold;
+        font-family: 'substitution';
+        font-size: 1.8rem;
+    }
+    .female-hashtag h1 {
+        font-weight: bold;
+        font-family: 'substitution';
+        font-size: 1.8rem;
+    }
+    .count ul li {
+        list-style-type: none;
+        width: 23px;
+        height: 30px;
+        float: left;
+        text-align: center;
+        line-height: 45px;
+        font-size: 1.5rem;
+        background: #052542 no-repeat;
+        margin: 0 1px;
+        font-weight: bold;
+    }
+}
+@media (min-width: 460px) {
+    .main {
+        height: 730px;
+    }
+}
+@media (min-width: 480px) {
+    .main {
+        height: 800px;
+    }
+}
+@media (min-width: 500px) {
+    .main {
+        height: 820px;
+    }
+}
+@media (min-width: 540px) {
+    .main {
+        height: 880px;
+    }
+    .lastest-tweet {
+        font-size: .8rem;
+    }
+    .tweet-email {
+        font-size: 11.5px;
+    }
+}
+@media (min-width: 760px) {
+    .main {
+        height: 1080px;
+    }
+}
+@media (min-width: 768px) {
+    .main {
+        height: 720px;
+    }
+    .male-hashtag h1 {
+        font-weight: bold;
+        font-family: 'substitution';
+        font-size: 2rem;
+    }
+    .female-hashtag h1 {
+        font-weight: bold;
+        font-family: 'substitution';
+        font-size: 2rem;
+    }
+    .count ul li {
+        list-style-type: none;
+        width: 40px;
+        height: 45px;
+        float: left;
+        text-align: center;
+        line-height: 45px;
+        font-size: 1.8rem;
+        background: #052542 no-repeat;
+        margin: 0 1px;
+        font-weight: bold;
+    }
+    .main {
+        height: 1080px;
+    }
+}
+
+@media (min-width: 1140px) {
+    .container {
+        max-width: 1400px;
+        overflow: hidden;
+    }
+    #gallon {
+        display: inline-block;
+    }
+    #mobile_gallon {
+        display: none;
+    }
+    .gallon .col-md-12 .box1,
+    .box2 {
+        position: absolute;
+        top: 29.6%;
+        width: 24%;
+        height: 47%;
+    }
+    .box1 {
+        left: 5.3%;
+    }
+    .box2 {
+        right: 3.3%;
+    }
+    .male-hashtag h1 {
+        font-weight: bold;
+        font-family: 'substitution';
+        font-size: 2.25rem;
+    }
+    .female-hashtag h1 {
+        font-weight: bold;
+        font-family: 'substitution';
+        font-size: 2.25rem;
+    }
+    .count ul li {
+        list-style-type: none;
+        width: 40px;
+        height: 45px;
+        float: left;
+        text-align: center;
+        line-height: 45px;
+        font-size: 2rem;
+        background: #052542 no-repeat;
+        margin: 0 1px;
+        font-weight: bold;
+    }
+    .campaign-content .col-md-6 {
+        margin-top: auto;
+    }
+    .count {
+        margin: 30px auto;
+    }
+    .male-hashtag {
+        position: absolute;
+        top: 125px;
+        left: 100px;
+        color: #fff;
+    }
+    .female-hashtag {
+        position: absolute;
+        top: 125px;
+        right: 100px;
+        color: #fff;
+    }
+    .female-hashtag ul li {
+        border-right: 3px solid #001d3a;
+        overflow: hidden;
+    }
+    .main {
+        background: url(../images/background.jpg) no-repeat top center;
+        background-size: cover;
+        margin-top: 0;
+        height: 1260px;
+    }
+    #male-tweet {
+        top: 865px;
+        left: 85px;
+        background: #fff;
+        -ms-transform: rotate(-7deg);
+        -webkit-transform: rotate(-7deg);
+        transform: rotate(-7deg) skew(-7deg);
+        border-left: 7px solid #bebec2;
+    }
+    #female-tweet {
+        top: 865px;
+        right: 60px;
+        background: #fff;
+        -ms-transform: rotate(7deg);
+        -webkit-transform: rotate(7deg);
+        transform: rotate(7deg) skew(7deg);
+        border-right: 7px solid #bebec2;
+    }
+    .lastest-tweet {
+        position: absolute;
+        width: 320px;
+        min-height: 160px;
+        border-radius: 10px;
+        padding: 20px;
+        direction: rtl;
+        text-align: right;
+        font-size: .85rem;
+    }
+    #male-tweet .drop {
+        width: 25px;
+        height: 26px;
+        float: right;
+        background: url(../images/male_tweet_drop.png) no-repeat;
+    }
+    #female-tweet .drop {
+        width: 25px;
+        height: 26px;
+        float: right;
+        background: url(../images/male_tweet_drop.png) no-repeat;
+    }
+    #male-tweet .tweet-user {
+        width: 100%;
+        height: 40px;
+        -ms-transform: rotate(0.5deg);
+        -webkit-transform: rotate(0.5deg);
+        transform: rotate(0.5deg);
+    }
+    #female-tweet .tweet-user {
+        width: 100%;
+        height: 40px;
+        -ms-transform: rotate(0.5deg);
+        -webkit-transform: rotate(0.5deg);
+        transform: rotate(0.5deg);
+    }
+    .user-info {
+        width: 200px;
+        height: 40px;
+        float: right;
+        direction: ltr;
+        font-family: 'substitution';
+    }
+    .user-info span {
+        padding: 0;
+        margin: 0;
+        line-height: 15px;
+        display: block;
+    }
+    .tweet-email {
+        color: #6d6e71;
+        font-size: 14px;
+    }
+    .user-info .user-name:before {
+        content: "";
+        display: inline-block;
+        width: 19px;
+        height: 17px;
+        background: url(../images/male_tweet_check.png) no-repeat;
+    }
+    .tweets-content:after {
+        content: "";
+        background: url(../images/male_tweet_dolar.png) no-repeat;
+        width: 22px;
+        height: 19px;
+        display: inline-block;
+    }
+    .dropwater-wrap {
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .box1 .dropwater {
+        z-index: 1;
+        width: 40px;
+        height: 40px;
+        right: 10%;
+        top: 20%;
+        position: absolute;
+    }
+    .box2 .dropwater {
+        z-index: 1;
+        width: 40px;
+        height: 40px;
+        left: 10%;
+        top: 22%;
+        position: absolute;
+    }
+    .campaign-content {
+        height: 258px;
+        margin-top: -60px;
+    }
+    #campaign-content .ul {
+        margin: 50px auto;
+        width: 435px;
+        padding-left: 50px;
+    }
+    #campaign-content .ul .li {
+        font-size: 28px;
+        color: #6d6e71;
+        list-style-type: none;
+    }
+    footer .social-links ul {
+        padding: 0;
+        width: 332px;
+        margin: 0 auto;
+    }
+    footer .social-links ul li {
+        list-style-type: none;
+        float: left;
+        margin: 0 10px;
+    }
+    #campaign-content h5 {
+        font-size: 36px;
+        color: #443165;
+        font-family: 'substitution';
+    }
+    .box1 .dropwater-wrap svg.whole-water {
+        z-index: 2;
+        width: 92%;
+        position: absolute;
+        bottom: 2%;
+        right: 6.5%;
+        transform: skewY(-6deg);
+        border-radius: 0 0 8px 65px;
+        height: 10%;
+    }
+    .box2 .dropwater-wrap svg.whole-water {
+        z-index: 2;
+        width: 91%;
+        position: absolute;
+        bottom: 2%;
+        left: 8.4%;
+        transform: skewY(6deg);
+        border-radius: 0 0 52px 8px;
+        height: 10%;
+    }
+}

@@ -1,0 +1,20 @@
+[03-Mar-2019 19:53:03 UTC] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'track' => '#laravel',  'follow' => '',)
+[03-Mar-2019 19:53:03 UTC] Phirehose: Connecting to ssl://stream.twitter.com, port=443, connectTimeout=5
+[03-Mar-2019 19:53:03 UTC] Phirehose: Connection established to stream.twitter.com
+[03-Mar-2019 19:53:03 UTC] Phirehose: POST /1.1/statuses/filter.json HTTP/1.1
+Host: stream.twitter.com:443
+Connection: Close
+Content-type: application/x-www-form-urlencoded
+Content-length: 24
+Accept: */*
+Authorization: OAuth realm="",oauth_consumer_key="sILFCHnZqhChSKsZRZjFqqzQK",oauth_nonce="33d82fcf15c9fe5b47d0dd0e95db9392",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1551642783",oauth_version="1.0A",oauth_token="4655987189-08zXuE9IR27MMprt9vYocLaMriTCOA8iotBmGO5",oauth_signature="Vvkji1oS3dCmhmA81RxtGm%2BzCjg%3D"
+User-Agent: Phirehose/1.0RC +https://github.com/fennb/phirehose
+
+track=%23laravel&follow=
+
+
+[03-Mar-2019 19:54:08 UTC] Phirehose: Consume rate: 0 status/sec (0 total), avg enqueueStatus(): 0ms, avg checkFilterPredicates(): 0.01ms (2 total) over 65 seconds, max stream idle period: 22 seconds.
+[03-Mar-2019 19:55:26 UTC] Phirehose: Consume rate: 0 status/sec (2 total), avg enqueueStatus(): 5.09ms, avg checkFilterPredicates(): 0ms (4 total) over 78 seconds, max stream idle period: 22 seconds.
+[03-Mar-2019 19:56:28 UTC] Phirehose: Consume rate: 0 status/sec (4 total), avg enqueueStatus(): 2.17ms, avg checkFilterPredicates(): 0ms (3 total) over 62 seconds, max stream idle period: 22 seconds.
+[03-Mar-2019 19:57:34 UTC] Phirehose: Consume rate: 0 status/sec (0 total), avg enqueueStatus(): 0ms, avg checkFilterPredicates(): 0ms (3 total) over 66 seconds, max stream idle period: 22 seconds.
+[03-Mar-2019 19:58:51 UTC] Phirehose: Consume rate: 0 status/sec (2 total), avg enqueueStatus(): 3.96ms, avg checkFilterPredicates(): 0ms (4 total) over 77 seconds, max stream idle period: 21 seconds.

@@ -1,0 +1,56 @@
+.numCounter {
+  display: inline-block;
+  height: 70px;
+  line-height: 70px;
+  color: #F1F1F1;
+  text-shadow: 0 0 2px #fff;
+  font-weight: bold;
+  white-space: normal;
+  font-size: 46.6666666667px;
+}
+.numCounter > b {
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+  margin: 0 0.1em;
+  border-radius: 8px;
+  background: #191919;
+  text-align: center;
+  box-shadow: 1px 1px rgba(255, 255, 255, 0.05), 1px 1px 5px #111 inset;
+  overflow: hidden;
+}
+.numCounter > b:before {
+  content: ' 0 1 2 3 4 5 6 7 8 9 ';
+  display: block;
+  word-break: break-all;
+  word-break: break-word;
+  transition: 0.7s cubic-bezier(0.12, 0.78, 0.52, 1.2);
+}
+.numCounter > b.d1:before {
+  margin-top: -70px;
+}
+.numCounter > b.d2:before {
+  margin-top: -140px;
+}
+.numCounter > b.d3:before {
+  margin-top: -210px;
+}
+.numCounter > b.d4:before {
+  margin-top: -280px;
+}
+.numCounter > b.d5:before {
+  margin-top: -350px;
+}
+.numCounter > b.d6:before {
+  margin-top: -420px;
+}
+.numCounter > b.d7:before {
+  margin-top: -490px;
+}
+.numCounter > b.d8:before {
+  margin-top: -560px;
+}
+.numCounter > b.d9:before {
+  margin-top: -630px;
+}
+

@@ -8,13 +8,13 @@
 - Copy .env.example to .env
 - Configure your .env file
     - DB_DATABASE=your-db-name
-    - DB_USERNAME=root
-    - DB_PASSWORD=null
+    - DB_USERNAME=your-db-username
+    - DB_PASSWORD=your-db-password
     - add following lines
-        - TWITTER_ACCESS_TOKEN=4655987189-08zXuE9IR27MMprt9vYocLaMriTCOA8iotBmGO5
-        - TWITTER_ACCESS_TOKEN_SECRET=sZlx1Ea5ryeaSa6Ys3aPDzoJyQCl8cbcW3qPPFsirIXGa
-        - TWITTER_CONSUMER_KEY=sILFCHnZqhChSKsZRZjFqqzQK\n
-        - TWITTER_CONSUMER_SECRET=v9j6oHliAnbUxkrOJunecI22t5MmvQ4CyRuQy0iUSKx9MSJhxR
+        - TWITTER_ACCESS_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        - TWITTER_ACCESS_TOKEN_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        - TWITTER_CONSUMER_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        - TWITTER_CONSUMER_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 - Run 'composer update' from the projects root folder.
 - Run 'npm install' from the projects root folder.
 - From the projects root folder run 'php artisan key:generate'

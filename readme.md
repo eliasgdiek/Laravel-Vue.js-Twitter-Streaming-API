@@ -1,6 +1,6 @@
 ## Installation Instructions
 
-- Run git clone https://XianZhinZhu@bitbucket.org/kasosloob/taqah-soc-2019.git
+- Run git clone https://github.com/davidstar333/Laravel-Vue.js-Twitter-Streaming-API.git
 - Create a MySQL database for the project
     - mysql -u root -p
     - create database 'your-db-name';

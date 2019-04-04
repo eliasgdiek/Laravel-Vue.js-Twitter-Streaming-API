@@ -3,7 +3,7 @@
         <div class="tweet-user">
             <div class="drop"></div>
             <div class="user-info">
-                <span class="user-name">المستعمل</span>
+                <span class="user-name">Vue.js</span>
                 <span class="tweet-email">{{username}}</span>
             </div>
         </div>

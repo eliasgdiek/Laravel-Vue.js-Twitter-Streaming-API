@@ -37673,7 +37673,7 @@ var render = function() {
         _c("div", { staticClass: "drop" }),
         _vm._v(" "),
         _c("div", { staticClass: "user-info" }, [
-          _c("span", { staticClass: "user-name" }, [_vm._v("المستعمل")]),
+          _c("span", { staticClass: "user-name" }, [_vm._v("Vue.js")]),
           _vm._v(" "),
           _c("span", { staticClass: "tweet-email" }, [
             _vm._v(_vm._s(_vm.username))
@@ -37779,7 +37779,7 @@ var render = function() {
         _c("div", { staticClass: "drop" }),
         _vm._v(" "),
         _c("div", { staticClass: "user-info" }, [
-          _c("span", { staticClass: "user-name" }, [_vm._v("المستعمل")]),
+          _c("span", { staticClass: "user-name" }, [_vm._v("Laravel")]),
           _vm._v(" "),
           _c("span", { staticClass: "tweet-email" }, [
             _vm._v(_vm._s(_vm.username))

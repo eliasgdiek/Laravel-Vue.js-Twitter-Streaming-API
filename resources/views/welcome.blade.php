@@ -85,7 +85,28 @@
 
                 <malehastag-component></malehastag-component>
                 <femalehastag-component></femalehastag-component>
-
+                <div id="profile">
+                    <div id="freelancer">
+                        <a href="https://www.freelancer.com/affiliates/email/32151027/"><img src="https://cdn6.f-cdn.com/ppic/126698009/logo/32151027/profile_logo_32151027.jpg" style="float: left; margin-right: 20px; margin-bottom:10px; width:100px; max-height: 100px; border-radius: 50%;"></a>
+                        <div style="min-height:40px;">
+                            <a style="text-decoration: underline; font-weight: bold;" href="https://www.freelancer.com/affiliates/email/32151027/">yuyuan zhang</a>
+                            <p style="margin: 0;margin-bottom: 6px; white-space: nowrap;overflow: hidden">Senior Web Developer</p>
+                            
+                                <p style="margin: 0;">
+                                    
+                                        <strong>P:</strong> 15641573588 
+                                    
+                                    
+                                </p>
+                            
+                            <p style="margin: 0;"><strong>E:</strong> xian1017@outlook.com</p>
+                            
+                        </div>
+                        <img src="https://www.freelancer.com/static/css/images/landingpage/hireme-widget-builder/fl-bird-icon.png" style="clear:left;float:left;margin: 10px 0;">
+                        <a href="https://www.freelancer.com/affiliates/email/32151027/" style="display: block;text-decoration: underline;margin: 10px 0 10px 10px;vertical-align: middle;height: 21px;float: left">Hire me on Freelancer.com</a>
+                        <img src="//t.flnwdgt.com/1px.gif?username=harrysart&amp;en=externalHireme&amp;method=img&amp;label=hiremeEmailImpression&amp;ip=209.95.60.151&amp;type=emailSignature" alt="" style="float:left;">
+                    </div>
+                </div>
                 <maletweet-component></maletweet-component>
                 <femaletweet-component></femaletweet-component>
             </div>

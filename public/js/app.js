@@ -37609,7 +37609,18 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "female-hashtag" }, [
-      _c("h1", { staticClass: "text-center" }, [_vm._v("#Vue.js")]),
+      _c("h1", { staticClass: "text-center" }, [
+        _c(
+          "a",
+          {
+            attrs: {
+              href: "https://twitter.com/hashtag/vuejs",
+              target: "_black"
+            }
+          },
+          [_vm._v("#Vue.js")]
+        )
+      ]),
       _vm._v(" "),
       _c("div", { staticClass: "count", attrs: { id: "female-count" } }, [
         _c("ul", [
@@ -37704,7 +37715,18 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "male-hashtag" }, [
-      _c("h1", { staticClass: "text-center" }, [_vm._v("#Laravel")]),
+      _c("h1", { staticClass: "text-center" }, [
+        _c(
+          "a",
+          {
+            attrs: {
+              href: "https://twitter.com/hashtag/laravel",
+              target: "_black"
+            }
+          },
+          [_vm._v("#Laravel")]
+        )
+      ]),
       _vm._v(" "),
       _c("div", { staticClass: "count", attrs: { id: "male-count" } }, [
         _c("ul", [
@@ -49066,10 +49088,10 @@ Vue.config.productionTip = false;
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('malehastag-component', __webpack_require__(/*! ./components/MalehashtagComponent.vue */ "./resources/js/components/MalehashtagComponent.vue").default);
-Vue.component('femalehastag-component', __webpack_require__(/*! ./components/FemalehastagComponent.vue */ "./resources/js/components/FemalehastagComponent.vue").default);
-Vue.component('maletweet-component', __webpack_require__(/*! ./components/MaletweetComponent.vue */ "./resources/js/components/MaletweetComponent.vue").default);
-Vue.component('femaletweet-component', __webpack_require__(/*! ./components/FemaletweetComponent.vue */ "./resources/js/components/FemaletweetComponent.vue").default);
+Vue.component('malehastag-component', __webpack_require__(/*! ./components/MalehashtagComponent.vue */ "./resources/js/components/MalehashtagComponent.vue")["default"]);
+Vue.component('femalehastag-component', __webpack_require__(/*! ./components/FemalehastagComponent.vue */ "./resources/js/components/FemalehastagComponent.vue")["default"]);
+Vue.component('maletweet-component', __webpack_require__(/*! ./components/MaletweetComponent.vue */ "./resources/js/components/MaletweetComponent.vue")["default"]);
+Vue.component('femaletweet-component', __webpack_require__(/*! ./components/FemaletweetComponent.vue */ "./resources/js/components/FemaletweetComponent.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -49097,7 +49119,7 @@ window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
  */
 
 try {
-  window.Popper = __webpack_require__(/*! popper.js */ "./node_modules/popper.js/dist/esm/popper.js").default;
+  window.Popper = __webpack_require__(/*! popper.js */ "./node_modules/popper.js/dist/esm/popper.js")["default"];
   window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
   __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
@@ -49470,8 +49492,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\www\taqah-soc-2019\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\www\taqah-soc-2019\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! e:\Laravel-Vue.js-Twitter-Streaming-API\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! e:\Laravel-Vue.js-Twitter-Streaming-API\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

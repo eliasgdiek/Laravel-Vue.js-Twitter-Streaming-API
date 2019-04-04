@@ -1,6 +1,6 @@
 <template>
     <div class="female-hashtag">
-        <h1 class="text-center">#Vue.js</h1>
+        <h1 class="text-center"><a href="https://twitter.com/hashtag/vuejs" target="_black">#Vue.js</a></h1>
         <div class="count" id="female-count">
             <ul>
                 <li></li>

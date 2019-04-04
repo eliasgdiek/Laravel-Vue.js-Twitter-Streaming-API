@@ -1,6 +1,6 @@
 <template>
     <div class="male-hashtag">
-        <h1 class="text-center">#Laravel</h1>
+        <h1 class="text-center"><a href="https://twitter.com/hashtag/laravel" target="_black">#Laravel</a></h1>
         <div class="count" id="male-count">
             <ul>
                 <li></li>

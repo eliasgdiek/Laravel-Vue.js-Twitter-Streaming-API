@@ -6,7 +6,25 @@
 body {
     background: #fff;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #999; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #777; 
+}
 .hide {
     display: none;
 }
@@ -263,6 +281,9 @@ footer .social-links ul li i {
     .container {
         width: 100%;
         overflow: hidden;
+    }
+    #profile{
+        display: none;
     }
     #gallon {
         display: none;
@@ -835,4 +856,34 @@ footer .social-links ul li i {
         border-radius: 0 0 52px 8px;
         height: 10%;
     }
+    #profile{
+        display: block;
+        position: absolute;
+        top: 830px;
+        width: 100%;
+        margin-left: 16px;
+    }
+    #profile #freelancer {
+        width: 330px;
+        margin: auto;
+        background: #fff;
+        border-radius: 5px;
+        height: 180px;
+        padding: 20px;
+    }
+}
+
+.male-hashtag h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+.male-hashtag h1 a:hover {
+    font-size: 2.5rem;
+}
+.female-hashtag h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+.female-hashtag h1 a:hover {
+    font-size: 2.5rem;
 }

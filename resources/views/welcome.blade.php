@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="logo">
-                        <a href="#"><img src="./assets/images/logo.png" alt=""></a>
+                        <a href="{{asset('/')}}"><img src="./assets/images/logo.png" alt=""></a>
                     </div>
                 </div>
             </div>

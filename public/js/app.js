@@ -37720,7 +37720,7 @@ var staticRenderFns = [
           "a",
           {
             attrs: {
-              href: "https://twitter.com/hashtag/laravel",
+              href: "https://twitter.com/hashtag/reactjs",
               target: "_black"
             }
           },
